@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Failed Login to Account Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>115963d4-772c-43d4-b836-bc4b8a7dd730</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ceb8824-7abe-4c07-8b54-3705075221b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a7361a4f-c19b-45f2-84b4-e5abbf3ca6ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'invalid_user'</defaultValue>
+      <description></description>
+      <id>4ceb8824-7abe-4c07-8b54-3705075221b7</id>
+      <masked>false</masked>
+      <name>invalid_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>a7361a4f-c19b-45f2-84b4-e5abbf3ca6ba</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -21,15 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.base_Url)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Swag Labs_user-name'), username)
+WebUI.setText(findTestObject('Loginpage/input_username'), invalid_username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Swag Labs_password'), password)
+WebUI.setEncryptedText(findTestObject('Loginpage/input_password'), password)
 
-WebUI.click(findTestObject('Object Repository/Login/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Loginpage/login_button'))
 
-WebUI.click(findTestObject('Object Repository/Login/span_Products'))
-
-WebUI.click(findTestObject('Object Repository/Login/span_Products'))
+WebUI.verifyElementVisible(findTestObject('Loginpage/login_error_message'))
 
 WebUI.closeBrowser()
 
