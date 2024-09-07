@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyElementVisible(findTestObject('Homepage/add_to_cart_button'))
 
-WebUI.navigateToUrl(GlobalVariable.base_Url)
+WebUI.click(findTestObject('Homepage/add_to_cart_button'))
 
-WebUI.setText(findTestObject('Object Repository/Loginpage/input_username'), username)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Loginpage/input_password'), password)
-
-WebUI.click(findTestObject('Object Repository/Loginpage/login_button'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Loginpage/txt_Products'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Homepage/cart_badge'))
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Products</name>
+   <name>txt_Products</name>
    <tag></tag>
    <elementGuidId>d64436a0-b101-430f-ac9c-65777681a222</elementGuidId>
    <selectorCollection>

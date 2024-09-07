@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Successful Checkout Product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0be2596-367b-47bd-8183-5776ea2966e3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0ac3639-1bb4-4f79-8a3d-c92466fabbc9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4a5d487-c9c9-47c8-9fa8-136a9e2bb45a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcb6da59-0ebd-4d0b-9c04-4c8ffe2c3f1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Habib'</defaultValue>
+      <description></description>
+      <id>f0ac3639-1bb4-4f79-8a3d-c92466fabbc9</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Akbar'</defaultValue>
+      <description></description>
+      <id>a4a5d487-c9c9-47c8-9fa8-136a9e2bb45a</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'1123'</defaultValue>
+      <description></description>
+      <id>fcb6da59-0ebd-4d0b-9c04-4c8ffe2c3f1d</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

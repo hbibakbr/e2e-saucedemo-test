@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyElementVisible(findTestObject('Cartpage/checkout_button'))
 
-WebUI.navigateToUrl(GlobalVariable.base_Url)
+WebUI.click(findTestObject('Cartpage/checkout_button'))
 
-WebUI.setText(findTestObject('Object Repository/Loginpage/input_username'), username)
+WebUI.verifyElementVisible(findTestObject('Checkoutpage/title_checkout_page'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Loginpage/input_password'), password)
+WebUI.setText(findTestObject('Checkoutpage/input_firstname'), firstname)
 
-WebUI.click(findTestObject('Object Repository/Loginpage/login_button'))
+WebUI.setText(findTestObject('Checkoutpage/input_lastname'), lastname)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Loginpage/txt_Products'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Checkoutpage/input_postal_code'), postal_code)
+
+WebUI.click(findTestObject('Checkoutpage/continue_button'))
+
+WebUI.verifyElementVisible(findTestObject('Overviewpage/title_overview_page'))
+
+WebUI.click(findTestObject('Overviewpage/finish_button'))
+
+WebUI.verifyElementVisible(findTestObject('Completepage/success_order_message'))
 
