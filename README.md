@@ -17,7 +17,7 @@ The project includes:
 - **Successful Access Cart Page:** Verifying the cart access to ensure the correct items are displayed and are ready for checkout.
 - **Successful Checkout Product:** Completing the checkout process, which includes entering user information, validating the order summary, and confirming the purchase.
 
-## Screenshot of Mochawesome Reporter
+## Screenshot of Login and Checkout Suite Report
 
 ![Login and Checkout Suite Report](Screenshots/report-logincheckout-suite.png)
 
